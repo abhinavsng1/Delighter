@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "664393947988",
+    "firebase_url": "https://delighter-25369.firebaseio.com",
+    "project_id": "delighter-25369",
+    "storage_bucket": "delighter-25369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664393947988:android:2483bc94daccc4943706c1",
+        "android_client_info": {
+          "package_name": "com.example.delighter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664393947988-1plq7ee48cco7se3go8tj4renluju682.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.delighter",
+            "certificate_hash": "ec3ce0bc71b0f2d2329a56b0deddba3e9e503530"
+          }
+        },
+        {
+          "client_id": "664393947988-nhcje18rkqj48c1b95cr6c0s371cdkdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxsCSbt4L4lJxZ1Lrt4gDDaWc_whc7YQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664393947988-nhcje18rkqj48c1b95cr6c0s371cdkdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

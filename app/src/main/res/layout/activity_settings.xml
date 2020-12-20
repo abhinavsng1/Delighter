@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="clip_horizontal|center"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/profile"
+        android:src="@mipmap/ic_launcher"
+        app:srcCompat="@drawable/profile"></ImageView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:background="@null"
+        android:hint="Name"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/about"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:background="@null"
+        android:hint="About"></EditText>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#5869C8"
+        android:text="Confirm"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#C85252"
+        android:text="Back"
+        android:textStyle="bold"></Button>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

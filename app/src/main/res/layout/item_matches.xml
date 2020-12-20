@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDFDF"
+    android:orientation="horizontal"
+    android:padding="15sp">
+
+    <ImageView
+        android:id="@+id/matchImage"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+        android:background="@drawable/profile"
+        android:src="@mipmap/ic_launcher"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+            android:id="@+id/matchName"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:text="Matches Name"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans"></TextView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap here to start conversation(They are as excited as you to talk)" />
+
+        <TextView
+            android:id="@+id/userId"
+            android:layout_width="match_parent"
+            android:layout_height="0.000000000005dp"
+            android:gravity="center"
+            android:text="Matches Name"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:typeface="sans"
+            android:visibility="invisible"></TextView>
+
+        <TextView
+            android:id="@+id/userSex"
+            android:layout_width="match_parent"
+            android:layout_height=".000005dp"
+            android:gravity="center"
+            android:text="Matches Name"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:typeface="sans"
+            android:visibility="invisible"></TextView>
+
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
